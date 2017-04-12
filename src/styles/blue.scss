@@ -1,0 +1,21 @@
+@import 'scss/themes/blue-theme';
+
+@import 'app.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900,900i');
+body,html, div, h1, h2, h3, h4, h5, h6, i, span, small{
+font-family: 'Montserrat', sans-serif;
+
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: none;
+    box-shadow: 0px 1px 2px 3px #d0d0d0;
+    border-radius: 0px;
+        padding: 4px 0px;
+}
+.nav{}
+.nav li{}
+.nav li h3{
+  margin: 15px 0 0 20px;
+}
